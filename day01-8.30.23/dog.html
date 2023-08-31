@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Dog Treats</title>
+
+    <style>
+        /* Reset some default styles for a clean slate */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #ff6600;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.about-us {
+    background-color: #66ccff;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Dog Treats</h1>
+        <p>Treats that make tails wag!</p>
+    </header>
+
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="dog-treat1.jpg" alt="Dog Treat 1">
+            <h3>Delicious Bacon Bites</h3>
+            <p>Irresistible bacon-flavored treats your dog will love.</p>
+        </div>
+
+        <div class="product">
+            <img src="dog-treat2.jpg" alt="Dog Treat 2">
+            <h3>Chewy Chicken Chews</h3>
+            <p>Tender and chewy chicken treats for your furry friend.</p>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>We are passionate about providing the best treats for your dogs. Our treats are made with love and care to keep your pets happy and healthy.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Dog Treats</p>
+    </footer>
+</body>
+</html>
