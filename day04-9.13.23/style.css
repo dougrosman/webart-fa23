@@ -1,0 +1,47 @@
+.box {
+    width: 50%;
+    height: 10rem;
+    background-color: brown;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+a {
+    background-color: green;
+}
+
+p {
+    background-color: olive
+}
+
+.parent {
+    width: 20rem;
+    height: 20rem;
+    background-color: orangered;
+}
+
+.child {
+    background-color: cornflowerblue;
+    width: 75%;
+    height: 75%;
+    border: 3px solid limegreen;
+}
+
+
+
+p {
+    font-size: 3rem;
+}
+
+.em {
+    background-color: pink;
+    padding: 1em;
+    text-align: center;
+}
+
+.rem {
+    background-color: lightgreen;
+    padding: 3rem;
+    text-align: center;
+}
+
