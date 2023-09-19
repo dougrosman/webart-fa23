@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.corner-message {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 2rem;
+    background-image: url("https://web.archive.org/web/20091019011051/http://www.geocities.com/organisms2002/ffish.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cyan;
+    padding: 3em;
+    font-size: 2rem;
+    box-shadow: -20px 20px 10px yellow;
+}
+
+.frog {
+    width: 400px;
+    height: 800px;
+    object-fit: cover;
+    object-position: -300px;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: black; */
+    font-size: 16vw;
+    color: black;
+    /* mix-blend-mode: color-dodge; */
+    /* text-shadow: 10px 40px 10px red; */
+    text-shadow: 4px 4px yellow, 8px 8px red, 12px 12px blue;
+    border: 20px dotted magenta;
+}
+
+.clouds {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    /* vh = viewport height */
+    height: 100vh;
+    /* object fit determines how a video or image will fit in the space it occupies */
+    object-fit: cover;
+    object-position: top left;
+}
