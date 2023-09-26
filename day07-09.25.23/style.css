@@ -15,6 +15,22 @@ body {
     place-items: center;
 }
 
+.dialog-box {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.close-button {
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: .5rem;
+    line-height: 0.5;
+}
+
 .absolute {
     background-color: aquamarine;
     position: absolute;
@@ -48,4 +64,11 @@ body {
    position: absolute;
    top: 0;
    right: 0;
+}
+
+.sticky {
+    background-color:steelblue;
+    color: white;
+    position: sticky;
+    top: 50px;
 }

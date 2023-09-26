@@ -1,0 +1,27 @@
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+}
+
+.cat {
+    position: absolute;
+}
+
+.a {
+    bottom: 0;
+    left: 0;
+}
+
+.b {
+    top: 0;
+    left: 30%;
+    width: 50px;
+}
+
+.c {
+    top: 20%;
+    left: 15%;
+}
