@@ -5,13 +5,15 @@ html {
 body {
     background-image: url("https://web.archive.org/web/20090820063311/http://geocities.com/james_smith73/fire.gif");
     background-color: black;
-    color: limegreen;
+    color: rgb(0, 255, 0);
 
     font-family: 'Audiowide', sans-serif;
 }
 
 h1 {
     text-align: center;
+    font-size: 4rem;
+    text-shadow: 4px 4px white;
 }
 
 .webring {
