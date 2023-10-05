@@ -1,0 +1,46 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    background-image: url("https://web.archive.org/web/20090820063311/http://geocities.com/james_smith73/fire.gif");
+    background-color: black;
+    color: limegreen;
+
+    font-family: 'Audiowide', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.webring {
+    border: 4px dashed orangered;
+    padding: 1rem;
+    width: max-content;
+    background-color: cyan;
+    
+}
+
+.weblinks {
+    font-size: 2rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+.weblinks a {
+    color: magenta;
+    text-shadow: 2px 2px yellow, 4px 4px cyan;
+}
+
+.weblinks a:hover {
+    color: black;
+}
+
+.webring a {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    
+
+    
+}
