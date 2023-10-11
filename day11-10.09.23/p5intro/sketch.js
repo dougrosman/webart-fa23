@@ -2,6 +2,7 @@ function setup() {
     createCanvas(innerWidth, innerHeight)
 
     background(200, 100, 0)
+    rectMode(CENTER);
 }
 
 function draw() {
@@ -11,11 +12,12 @@ function draw() {
     fill(red, 0, 0)
     strokeWeight(1)
     stroke(mouseX, mouseY, 255)
-    rect(mouseX, mouseY, mouseX, mouseY)
+    rect(mouseX, mouseY, random(10, 50), random(10, 50));
     //text(`${mouseX}, ${mouseY}`, mouseX, mouseY);
 }
 
 // an event listener that "listens" for when the page is resized. If it is...do whatever is in the function
 function windowResized() {
     resizeCanvas(innerWidth, innerHeight);
+    background(200, 100, 0)
 }
