@@ -1,7 +1,7 @@
 function setup() {
     createCanvas(innerWidth, innerHeight)
 
-    background(200, 100, 0)
+    background(0)
     rectMode(CENTER);
 }
 
@@ -12,7 +12,7 @@ function draw() {
     fill(red, 0, 0)
     strokeWeight(1)
     stroke(mouseX, mouseY, 255)
-    rect(mouseX, mouseY, random(10, 50), random(10, 50));
+    rect(mouseX, mouseY, random(100, 10000), random(100, 500));
     //text(`${mouseX}, ${mouseY}`, mouseX, mouseY);
 }
 
