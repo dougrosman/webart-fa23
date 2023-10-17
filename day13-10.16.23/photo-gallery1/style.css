@@ -14,6 +14,12 @@ header {
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem 2rem;
+    background-color: black;
+    color: white;
+}
+
+header a {
+    color: white;
 }
 
 /* header > * {
@@ -27,6 +33,7 @@ header {
    border: 2px solid black;
    border-radius: 50%;
    background-color: white;
+   color: black;
    padding: .25rem;
 }
 
@@ -48,9 +55,52 @@ header {
 
 /* MAIN BLOCK */
 
+main {
+    max-width: 50rem;
+    margin: 5rem auto;
+}
+
+.page-title {
+    text-align: center;
+    padding: 4rem;
+    background-image: url('//picsum.photos/id/115/1920/600');
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-container p {
+    border: 2px solid red;
+    padding: 1rem;
+}
+
 img {
     display: block;
 }
+
+.gallery  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+.gallery img {
+    width: min(300px, 100%);
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+}
+
+
 
 
 
