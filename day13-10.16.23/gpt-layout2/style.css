@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-box {
+    background-color: #e0e0e0;
+    height: 150px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.image-box::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.waves {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+}
+
+.waves::before, .waves::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+.waves::before {
+    background-image: radial-gradient(circle at 10% 50%, transparent 23%, #e0e0e0 24%);
+    background-size: 40px 40px;
+    animation: waveAnimation 3s infinite linear;
+}
+
+.waves::after {
+    background-image: radial-gradient(circle at 10% 50%, transparent 23%, #e0e0e0 24%);
+    background-size: 40px 40px;
+    background-position: 20px -20px;
+    animation: waveAnimation 3s -1.5s infinite linear;
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
