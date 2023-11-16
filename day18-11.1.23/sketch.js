@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-    
+    clear(0);
     fill(255, 0, 255, 100);
     stroke(0, map(mouseX, 0, width, 0, 255), 180, 127);
     strokeWeight(2);
